@@ -1,0 +1,42 @@
+# _config.yml for GitHub Pages / Jekyll
+# Customize this file based on how your portfolio repo should behave
+
+# ---- Site Settings ----
+title: "Bala Murugan P M — Portfolio"
+description: "Projects, Resume, and Data Science Work by Bala Murugan"
+theme: jekyll-theme-slate
+
+# ---- Author Info ----
+author:
+  name: "Bala Murugan P M"
+  email: "pmbalamurugan18071999@gmail.com"
+  github: "https://github.com/pmbalamurugan1807"
+  linkedin: "https://www.linkedin.com/in/bala-murugan-p-m-489a58219/"
+
+# ---- Markdown Options ----
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# ---- URL Settings ----
+# Change these when hosting on GitHub Pages
+baseurl: ""
+url: "https://pmbalamurugan1807.github.io"
+
+# ---- Build Settings ----
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# ---- Navigation ----
+# Adjust based on your repo structure
+nav:
+  - name: "Home"
+    link: "/"
+  - name: "Projects"
+    link: "/projects"
+  - name: "Resume"
+    link: "/resume"
+  - name: "Contact"
+    link: "/contact"
